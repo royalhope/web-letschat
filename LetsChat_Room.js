@@ -52,5 +52,5 @@ function logout()
 {
       localStorage.removeItem("nick_name");
       localStorage.removeItem("room_name");
-          window.location = "LetsChat.html"; 
+          window.location = "index.html"; 
 }
