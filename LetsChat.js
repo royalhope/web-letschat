@@ -3,6 +3,7 @@ function addUser()
     user_input = document.getElementById("user_name").value;
     
     if(user_input == "")
+        alert('Display Name input is empty!')
     {
 
     }
