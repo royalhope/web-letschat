@@ -1,15 +1,15 @@
-//YOUR FIREBASE LINKS
-const firebaseConfig = {
+var firebaseConfig = {
       apiKey: "AIzaSyCrQuU4heAxGLuFRajc_8PpMWYeED30HkM",
       authDomain: "web-letschat.firebaseapp.com",
+      databaseURL: "https://web-letschat-default-rtdb.firebaseio.com",
       projectId: "web-letschat",
       storageBucket: "web-letschat.appspot.com",
       messagingSenderId: "1024952712118",
       appId: "1:1024952712118:web:627555993f3307aff05f17",
       measurementId: "G-BZCNHSSG5S"
-};
-    // Initialize Firebase
-    firebase.initializeApp(firebaseConfig);
+    };
+
+firebase.initializeApp(firebaseConfig);
 
 user_name = localStorage.getItem("nick_name");
 room_name = localStorage.getItem("room_name");
