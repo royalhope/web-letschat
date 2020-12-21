@@ -2,17 +2,17 @@
 //ADD YOUR FIREBASE LINKS HERE
 
 // Your web app's Firebase configuration
-var firebaseConfig = {
-      apiKey: "AIzaSyBuGDeYk4TBEQsZRSqi63v727WaJBImqpk",
-      authDomain: "letschat-website.firebaseapp.com",
-      databaseURL: "https://letschat-website.firebaseio.com",
-      projectId: "letschat-website",
-      storageBucket: "letschat-website.appspot.com",
-      messagingSenderId: "685976069194",
-      appId: "1:685976069194:web:7cbb0b5c508977419f72b3"
-    };
-    // Initialize Firebase
-    firebase.initializeApp(firebaseConfig);
+const firebaseConfig = {
+      apiKey: "AIzaSyCrQuU4heAxGLuFRajc_8PpMWYeED30HkM",
+      authDomain: "web-letschat.firebaseapp.com",
+      projectId: "web-letschat",
+      storageBucket: "web-letschat.appspot.com",
+      messagingSenderId: "1024952712118",
+      appId: "1:1024952712118:web:627555993f3307aff05f17",
+      measurementId: "G-BZCNHSSG5S"
+};
+
+firebase.initializeApp(firebaseConfig);
 
 nick_name = localStorage.getItem("nick_name");
 document.getElementById("username_display").innerHTML = "Welcome " + nick_name + "!";
